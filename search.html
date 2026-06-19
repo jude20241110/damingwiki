@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索 - 明实录</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="search-page">
+  <nav class="top-nav">
+    <a href="index.html">首页</a>
+    <a href="about.html">关于本网站</a>
+  </nav>
+  <main class="search-wrap">
+    <h1>全文搜索</h1>
+    <form class="search-box small" action="search.html" method="get">
+      <input id="q" name="q" type="search" placeholder="输入关键词" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <div id="resultInfo" class="result-info"></div>
+    <div id="results" class="results"></div>
+  </main>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/search.js"></script>
+</body>
+</html>
