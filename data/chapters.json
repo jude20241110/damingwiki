@@ -1,0 +1,56 @@
+{
+  "version": "2026-06-21-template1",
+  "books": [
+    {
+      "id": "taizu",
+      "title": "太祖实录",
+      "chapters": [
+        {
+          "id": "taizu-001",
+          "title": "太祖实录 · 卷一 · 辛卯岁至甲午岁（1351—1354）",
+          "tocTitle": "卷一　辛卯岁至甲午岁（1351—1354）",
+          "status": "published",
+          "original": "data/articles/taizu-001-original.html",
+          "translation": "data/articles/taizu-001-translation.html",
+          "notes": "data/articles/taizu-001-notes.html"
+        },
+        {
+          "id": "taizu-002",
+          "title": "太祖实录 · 卷二 · 乙未岁（1355）",
+          "tocTitle": "卷二　乙未岁（1355）",
+          "status": "published",
+          "original": "data/articles/taizu-002-original.html",
+          "translation": "data/articles/taizu-002-translation.html",
+          "notes": "data/articles/taizu-002-notes.html"
+        },
+        {
+          "id": "taizu-003",
+          "title": "太祖实录 · 卷三 · 乙未岁末（1355）",
+          "tocTitle": "卷三　乙未岁末（1355）",
+          "status": "published",
+          "original": "data/articles/taizu-003-original.html",
+          "translation": "data/articles/taizu-003-translation.html",
+          "notes": "data/articles/taizu-003-notes.html"
+        },
+        {
+          "id": "taizu-004",
+          "title": "太祖实录 · 卷四 · 丙申岁（1356）",
+          "tocTitle": "卷四　丙申岁（1356）",
+          "status": "published",
+          "original": "data/articles/taizu-004-original.html",
+          "translation": "data/articles/taizu-004-translation.html",
+          "notes": "data/articles/taizu-004-notes.html"
+        },
+        {
+          "id": "taizu-005",
+          "title": "太祖实录 · 卷五",
+          "tocTitle": "卷五　正在更新中",
+          "status": "draft",
+          "original": "data/articles/taizu-005-original.html",
+          "translation": "data/articles/taizu-005-translation.html",
+          "notes": "data/articles/taizu-005-notes.html"
+        }
+      ]
+    }
+  ]
+}

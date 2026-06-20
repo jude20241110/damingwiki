@@ -257,3 +257,48 @@ body.night #closeToc {
     border-color: #4a3d30;
   }
 }
+
+
+/* ===== 新版统一阅读模板 reader.html ===== */
+.reader-app .loading-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255,255,255,.62);
+  padding: 28px 34px;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.reader-app .content-body p {
+  margin: 0 0 1.15em;
+}
+.reader-app .toc-disabled {
+  display: block;
+  padding: 9px 12px;
+  margin: 5px 0;
+  border-radius: 6px;
+  color: var(--muted);
+  opacity: .75;
+}
+.reader-app .chapter-nav {
+  align-items: center;
+}
+.reader-app .chapter-btn {
+  min-width: 118px;
+  text-align: center;
+}
+.reader-app .text-block.original-block:first-child {
+  border-right: 1px solid #d8c4a9;
+}
+body.night .reader-app .loading-card,
+body.night.reader-app .loading-card {
+  background:#221d17;
+  border-color:#4a3d30;
+}
+@media (max-width: 768px) {
+  .reader-app .text-block.original-block:first-child {
+    border-right: 1px solid var(--line);
+  }
+  .reader-app .content-body p {
+    margin-bottom: 1.05em;
+  }
+}

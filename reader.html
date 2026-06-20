@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="pageTitle">明实录阅读</title>
+  <link rel="stylesheet" href="assets/style.css?v=reader-template-1">
+</head>
+<body class="reader-page reader-app mobile-show-translation">
+  <header class="reader-header">
+    <button id="tocBtn" class="plain-btn">☰ 目录</button>
+    <h1 id="articleTitle">明实录阅读</h1>
+    <div class="reader-tools">
+      <button id="themeBtn" class="plain-btn">夜间模式</button>
+      <button id="smallFont" class="plain-btn">A-</button>
+      <button id="largeFont" class="plain-btn">A+</button>
+      <a class="plain-link" href="index.html">返回首页</a>
+    </div>
+  </header>
+
+  <aside id="tocPanel" class="toc-panel hidden"></aside>
+
+  <main class="reader-wrap">
+    <div class="mobile-tabs" aria-label="阅读模式切换">
+      <button class="mobile-tab" data-view="original">原文</button>
+      <button class="mobile-tab active" data-view="translation">翻译</button>
+    </div>
+
+    <section id="loadingMessage" class="loading-card">正在载入文章……</section>
+
+    <section class="text-grid" id="articleGrid" hidden>
+      <article class="text-block original-block">
+        <h2>原文</h2>
+        <div id="originalText" class="content-body"></div>
+      </article>
+      <article class="text-block translation-block">
+        <h2>翻译</h2>
+        <div id="translationText" class="content-body"></div>
+      </article>
+    </section>
+
+    <div class="chapter-nav" id="chapterNav"></div>
+
+    <section class="notes-wrap collapsed" id="notesWrap" hidden>
+      <button id="notesBtn" class="notes-toggle">显示注释</button>
+      <div class="notes-content">
+        <h2>注释</h2>
+        <div id="notesText"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/app-reader.js?v=reader-template-1" charset="UTF-8"></script>
+</body>
+</html>
