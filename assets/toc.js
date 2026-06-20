@@ -8,7 +8,8 @@ const tocHTML = `
     <summary>太祖实录</summary>
     <a href="taizu-001.html">卷一　辛卯岁至甲午岁（1351—1354）</a>
     <a href="taizu-002.html">卷二　乙未岁（1355）</a>
-    <span class="toc-disabled">卷三　正在更新中</span>
+    <a href="taizu-002.html">卷三　乙未岁（1355）</a>
+    <span class="toc-disabled">卷四　正在更新中</span>
   </details>
 `;
 
