@@ -9,7 +9,7 @@ const tocHTML = `
     <a href="taizu-001.html">卷一　辛卯岁至甲午岁（1351—1354）</a>
     <a href="taizu-002.html">卷二　乙未岁（1355）</a>
     <a href="taizu-003.html">卷三　乙未岁（1355）</a>
-     <a href="taizu-003.html">卷四　丙申岁（1356）</a>
+     <a href="taizu-004.html">卷四　丙申岁（1356）</a>
     <span class="toc-disabled">卷五　正在更新中</span>
   </details>
 `;
