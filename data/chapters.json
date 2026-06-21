@@ -44,11 +44,20 @@
         {
           "id": "taizu-005",
           "title": "太祖实录 · 卷五",
-          "tocTitle": "卷五　正在更新中",
-          "status": "draft",
+          "tocTitle": "卷五　丁酉岁（1357）",
+          "status": "published",
           "original": "data/articles/taizu-005-original.html",
           "translation": "data/articles/taizu-005-translation.html",
           "notes": "data/articles/taizu-005-notes.html"
+        },
+        {
+          "id": "taizu-006",
+          "title": "太祖实录 · 卷六 ",
+          "tocTitle": "卷六　正在更新中",
+          "status": "draft",
+          "original": "data/articles/taizu-006-original.html",
+          "translation": "data/articles/taizu-006-translation.html",
+          "notes": "data/articles/taizu-006-notes.html"
         }
       ]
     }
