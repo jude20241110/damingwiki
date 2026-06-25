@@ -62,11 +62,20 @@
         {
           "id": "taizu-007",
           "title": "太祖实录 · 卷七 ",
-          "tocTitle": "卷七　正在更新中",
-          "status": "draft",
+          "tocTitle": "卷七　己亥年（1359）",
+          "status": "published",
           "original": "data/articles/taizu-007-original.html",
           "translation": "data/articles/taizu-007-translation.html",
           "notes": "data/articles/taizu-007-notes.html"
+        },
+        {
+          "id": "taizu-008",
+          "title": "太祖实录 · 卷八 ",
+          "tocTitle": "卷八　正在更新中",
+          "status": "draft",
+          "original": "data/articles/taizu-008-original.html",
+          "translation": "data/articles/taizu-008-translation.html",
+          "notes": "data/articles/taizu-008-notes.html"
         }
       ]
     }
