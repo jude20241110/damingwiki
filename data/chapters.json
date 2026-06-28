@@ -71,11 +71,20 @@
         {
           "id": "taizu-008",
           "title": "太祖实录 · 卷八 ",
-          "tocTitle": "卷八　正在更新中",
-          "status": "draft",
+          "tocTitle": "卷八　庚子年（1360）",
+          "status": "published",
           "original": "data/articles/taizu-008-original.html",
           "translation": "data/articles/taizu-008-translation.html",
           "notes": "data/articles/taizu-008-notes.html"
+        },
+        {
+          "id": "taizu-009",
+          "title": "太祖实录 · 卷九 ",
+          "tocTitle": "卷九　正在更新中",
+          "status": "draft",
+          "original": "data/articles/taizu-009-original.html",
+          "translation": "data/articles/taizu-009-translation.html",
+          "notes": "data/articles/taizu-009-notes.html"
         }
       ]
     }
